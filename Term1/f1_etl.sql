@@ -137,9 +137,9 @@ CREATE TABLE message_log (message varchar(100) NOT NULL);
 SET GLOBAL event_scheduler = ON;
 
 -- Event
-DROP EVENT IF EXISTS CreateDataWarehouse;
+DROP EVENT IF EXISTS CreateEventDW;
 DELIMITER $$
-CREATE EVENT CreateDataWarehouse
+CREATE EVENT CreateEventDW
 ON SCHEDULE EVERY 1 MINUTE -- Set to update every minute
 STARTS CURRENT_TIMESTAMP -- Initializes when run
 ENDS CURRENT_TIMESTAMP + INTERVAL 5 MINUTE -- Set to end 5 minutes after run for testing purposes
