@@ -8,6 +8,7 @@ To load the database and all operations please upload and run the following file
 1. `formula1_data_dump.sql` - SQL data dump file for schema and table creation along with all data insertions
 2. `f1_etl.sql` - SQL file containing the ETL pipeline and triggers
 3. `f1_queries.sql` - SQL file containing simple queries to show views and test if ETL pipeline works properly
+Conversely if you would like to have them all combined into one file, then please load the `F1_DE1_TP1.sql` file from the repo, however this may be slower.
 
 Additionally, the EER diagram for this SQL database `f1_eer.mwb` has been created for you to open and view in MySQL Workbench as well.
 Additionally screenshots of the EER diagram have been made available within this repo.
