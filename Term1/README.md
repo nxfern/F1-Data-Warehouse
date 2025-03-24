@@ -1,4 +1,4 @@
-# Data Engineering 1 Term Project 1 - F1 SQL Database
+# Data Engineering Project - F1 SQL Database
 Data Engineering Term Project 1 - F1 Dataset
 ### Data Source
 The SQL data dump was taken from the relational.fit.cvut.cz MySql Workbench server. The SQL dump itself was derived from the Ergast F1 databse API. The data contains information about F1 racing from 1950-2017.  
